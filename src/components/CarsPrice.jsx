@@ -9,7 +9,7 @@ export const CarsPrice = () => {
   return (
     <div className="container">
       <div className="row py-3">
-        <h4 className="card-title text-end p-3 shadow">Total Price: {totalPrice}</h4>
+        <h4 className="card-title text-end p-3 shadow text-info">Total Price: {totalPrice}</h4>
       </div>
     </div>
   )
